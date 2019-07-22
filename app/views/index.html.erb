@@ -1,6 +1,6 @@
 <h1>All Coupons</h1>
 
 <%= @coupons.each do |coupon| %>
-  <%= coupon %>
+  <%= coupon.store %>
+  <%= coupon.coupon_code %>
 <%= end %>
-  
