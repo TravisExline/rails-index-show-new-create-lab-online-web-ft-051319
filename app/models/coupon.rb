@@ -1,2 +1,2 @@
-class Coupon 
+class Coupon
 end
